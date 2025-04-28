@@ -1,0 +1,17 @@
+midi_in: [DIN5, USB]
+midi_thru: [No]
+phantom_power: [No]
+midi_clock: [Yes]
+
+midi_channel:
+  instructions: |+
+    The H90 listens to MIDI messages on a configurable channel. 
+    To set the MIDI channel:
+    1. Press the 'System' button.
+    2. Navigate to 'MIDI Settings' > 'Channel'.
+    3. Select the desired channel (1–16).
+
+midi_mapping: [No]
+description: |+
+  The Eventide H90 is a dual-engine effects processor that accepts MIDI messages for comprehensive control. 
+  It responds to Program Change messages for preset selection and Control Change messages for parameters such as bypass, scene selection, insert routing, and tuner activation.
